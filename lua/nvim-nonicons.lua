@@ -5,7 +5,7 @@ if (vim.g.override_nvim_web_devicons ~= false) then
 end
 
 local function get(name)
-  return vim.fn.nr2char(icons[name])
+  return icons[name]
 end
 
 return {
